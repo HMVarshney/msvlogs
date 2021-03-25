@@ -1,0 +1,29 @@
+.container {
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgb(226, 226, 226);
+  transition: all ease-in-out 200ms;
+  cursor: pointer;
+}
+
+.container:hover {
+  box-shadow: 3px 3px 10px rgb(155, 155, 155);
+}
+
+.card-image {
+  min-height: 220px;
+  height: 100%;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.buy-text {
+  border-radius: 0 0 8px 8px;
+  height: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a265c;
+}
